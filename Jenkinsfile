@@ -7,7 +7,13 @@ agent{
 	}
 	}
    stages{
-         
+         stage('git clone'){
+		    steps{
+			  sh"sudo git clone https://github.com/TathodHardik/project-node.git"
+			 
+			}
+		 
+		 }
 		 
       stage('install-docker-compose'){
 	          steps{ 
