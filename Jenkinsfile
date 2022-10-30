@@ -2,7 +2,7 @@ pipeline{
 
 agent{
     label{
-           label'10.0.3.10'
+           label'10.0.4.187'
 		   customWorkspace"/mnt/deploy"
 	}
 	}
